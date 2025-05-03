@@ -1,0 +1,34 @@
+const baseUrl = "https://patientmanagement.saeedantechpvt.com/api";
+const loginUrl = "$baseUrl/login";
+const createPatientUrl = "$baseUrl/doctor/patients";
+const createPatientUrlByAdmin = "$baseUrl/admin/patients/store";
+const getAllDoctorsUrl = "$baseUrl/admin/doctors";
+const getAllPatientsUrl = "$baseUrl/doctor/patients";
+const getAllPracticesUrl = "$baseUrl/admin/practices";
+const createPracticeUrl = "$baseUrl/admin/practices";
+const createdoctorUrl = "$baseUrl/admin/doctors";
+const getAllPatientForAdminUrl = "$baseUrl/admin/all/patients";
+const updateDoctorsStatus = "$baseUrl/admin/doctors/update/form_status";
+const updateDoctorPermission = "$baseUrl/admin/doctors/update/form_status";
+const createStaffByAdminUrl = "$baseUrl/admin/staffs";
+const updatePatientStatusByAdminUrl = "$baseUrl/admin/patients/update/status";
+const getTechnicianforAdminUrl = "$baseUrl/admin/technicians";
+const createTechnicianforAdminUrl = "$baseUrl/admin/technicians";
+const changepasswordUrl = "$baseUrl/admin/users/changes-password/";
+const deleteTechnicianByAdminUrl = "$baseUrl/admin/technicians/";
+const deleteStaffByAdminUrl = "$baseUrl/admin/staffs/";
+const updateTechnicianByAdminUrl = "$baseUrl/admin/technicians/";
+const getAllStaffMembers = "$baseUrl/admin/staffs";
+const getAllPatientsForTechnicians = "$baseUrl/technician/patients";
+const updatePatientStatusByTechnician =
+    "$baseUrl/technician/patients/update/status";
+const fetchchatsfortechnicianUrl = "$baseUrl/technician/chat/users";
+const fetchadminchats = "$baseUrl/admin/chat/users";
+const fetchAllStatusesUrl = "$baseUrl/doctor/all_status";
+const updateNotifications = "$baseUrl/doctor/settings";
+const createCodeUrl = "$baseUrl/admin/ic10_codes";
+const getAllPatientsByDoctorUrl = "$baseUrl/doctor/patients";
+const getAllStaffByDoctorUrl = "$baseUrl/doctor/all_staff";
+const getAllStatusesUrl = "$baseUrl/admin/all_status";
+const changedPatientStatusBySetupTechnician =
+    "$baseUrl/technician/patients/update/status";
